@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /dataauditserver
+spring:
+  profiles:
+    active: dev
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+
